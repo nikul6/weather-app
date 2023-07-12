@@ -1,4 +1,4 @@
-'use Client'
+'use client'
 
 import React, { useState } from 'react'
 import { Country, City } from 'country-state-city';
@@ -48,7 +48,7 @@ function CityPicker() {
 
     const handleSelectedCity = (option: cityOption) => {
         setSelectedCity(option);
-        router.push(`location/${option?.value.name}/${option?.value.latitude}/${option?.value.longitude}`)
+        router.push(`/location/${option?.value.name}/${option?.value.latitude}/${option?.value.longitude}`)
     }
 
     return (
