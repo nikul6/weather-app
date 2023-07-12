@@ -4,6 +4,7 @@ import fetchWeatherQuery from '../../../../../../graphql/queries/fetchWeatherQue
 import CalloutCard from '../../../../../../components/CalloutCard';
 import StatCard from '../../../../../../components/StatCard';
 import InformationPanel from '../../../../../../components/InformationPanel';
+import TempChart from '../../../../../../components/TempChart';
 
 type Props = {
   params: {
@@ -92,7 +93,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
         </div>
         <hr className='mb-5' />
         <div className='space-y-3'>
-                
+            <TempChart results={results}/>
         </div>
       </div>
     </div>
