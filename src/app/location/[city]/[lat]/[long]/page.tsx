@@ -5,6 +5,7 @@ import CalloutCard from '../../../../../../components/CalloutCard';
 import StatCard from '../../../../../../components/StatCard';
 import InformationPanel from '../../../../../../components/InformationPanel';
 import TempChart from '../../../../../../components/TempChart';
+import RainChart from '../../../../../../components/RainChart';
 
 type Props = {
   params: {
@@ -94,6 +95,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
         <hr className='mb-5' />
         <div className='space-y-3'>
             <TempChart results={results}/>
+            <RainChart results={results}/>
         </div>
       </div>
     </div>
