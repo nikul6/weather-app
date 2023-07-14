@@ -10,6 +10,8 @@ import HumidityChart from '../../../../../../components/HumidityChart';
 
 const content = "The weather application is built using Next.js 13, GraphQL, TypeScript, Tremor, Stepzen, and Tailwind CSS. It allows users to select a country and city to retrieve weather information. The application displays details such as temperature, date, time, forecast, maximum and minimum temperature, UV index, wind speed, wind direction, chance of rain, and humidity levels. Additionally, it utilizes charts to visualize temperature, UV index, and other data. With a user-friendly interface and efficient data retrieval, the application provides accurate and up-to-date weather information to users."
 
+export const revalidate = 60;
+
 type Props = {
   params: {
     city: string;
