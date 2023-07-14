@@ -39,6 +39,9 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## 🚀 UI
+![alt text](https://github.com/nikul6/weather-app/blob/main/AppVideo/WeatherApp.mov)
+
 ## 📝 Notes
 
 To learn more about Next.js, take a look at the following resources:
