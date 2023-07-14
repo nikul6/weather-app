@@ -40,7 +40,7 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 🚀 UI
-![alt text](https://github.com/nikul6/weather-app/blob/main/AppVideo/WeatherApp.mov)
+You can watch the video [here](https://drive.google.com/file/d/1Ouk9Grt9_a2ddanAW3_D3MtHJ1SgA8f4/view?usp=sharing)
 
 ## 📝 Notes
 
